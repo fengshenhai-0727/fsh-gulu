@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "冯深海 <fengshenhai@miaozhen.com>",
+  "homepage": "https://github.com/fengshenhai-0727/fsh-gulu#readme",
+  "license": "MIT",
+  "main": "lib/test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.mlamp.cn/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengshenhai-0727/fsh-gulu.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/test.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/fengshenhai-0727/fsh-gulu/issues"
+  },
+  "devDependencies": {
+    "@fsh-gulu/gulu-cli": "^0.0.1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
