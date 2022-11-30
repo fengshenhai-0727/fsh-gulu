@@ -22,7 +22,7 @@ export const builder = (yargs: any) => {
         })
         .demandCommand(0)
         .help('h')
-        .example('hulu dev audi', '启动本地开发模式')
+        .example('hulu dev audi', '启动本地开发模式.')
         .showHelpOnFail(true);
 };
 
