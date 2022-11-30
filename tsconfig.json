@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "target": "es2017",
+        "module": "commonjs",
+        "baseUrl": ".",
+        "outDir": "./.publish/src",
+        "moduleResolution": "node",
+        "declaration": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "noImplicitThis": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "useUnknownInCatchVariables": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "paths": {
+            "@mlamp/hulu-vine": ["./packages/hulu-vine/src/*"],
+            "@mlamp/hulu-core": ["./packages/hulu-core/src/*"],
+            "@mlamp/hulu-utils": ["./packages/hulu-utils/src/*"],
+            "@mlamp/hulu-montage": ["./packages/hulu-montage/*"],
+            "@mlamp/hulu-types": ["./packages/hulu-types/*"],
+            "@mlamp/hulu-met": ["./packages/hulu-met/src/*"],
+            "@mlamp/hulu-msc": ["./packages/hulu-msc/src/*"],
+            "@mlamp/hulu-mu": ["./packages/hulu-mu/src/*"],
+            "@mlamp/hulu-register": ["./packages/hulu-register/src/*"],
+            "@mlamp/babel-preset-hulu": ["./packages/babel-preset-hulu/src/*"],
+            "@mlamp/babel-plugin-hulu-css-module": ["./packages/babel-plugin-hulu-css-module/src/*"],
+            "@mlamp/babel-plugin-hulu-jsx-image": ["./packages/babel-plugin-hulu-jsx-image/src/*"]
+        }
+    },
+    "include": ["./src/**/*", "./packages/**/*"],
+    "exclude": ["./src/template"]
+}

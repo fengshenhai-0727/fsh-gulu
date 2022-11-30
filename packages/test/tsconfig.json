@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "jsx": "react-jsx",
+        "jsxImportSource": "@mlamp/hulu-jsx-plus",
+        "allowJs": true,
+        "baseUrl": "./src",
+        "lib": ["ES6", "ES7", "ESNext", "DOM", "DOM.Iterable", "ScriptHost"],
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "strictNullChecks": false,
+        "types": ["node"],
+        "typeRoots": ["./typings", "node_modules/@types", "node_modules/@mlamp/hulu-types"],
+        "paths": {
+            "@/hulu-met-demos/*": ["./*"],
+            "@/hulu-met-demos/hulu/*": ["../hulu/*"],
+            "@/hulu-met-demos/public/*": ["../public/*"],
+            "@/repo/*": ["../*"],
+            "@/hulu/*": ["../hulu/*"]
+        }
+    },
+    "exclude": [],
+    "include": ["./", "./typings", "node_modules/@mlamp/hulu-types"]
+}
