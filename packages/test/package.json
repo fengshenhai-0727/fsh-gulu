@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "fsh-test",
   "version": "0.0.5",
   "description": "> TODO: description",
   "author": "冯深海 <fengshenhai@miaozhen.com>",
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://www.npmjs.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fengshenhai-0727/fsh-gulu.git"
@@ -32,5 +29,5 @@
   "dependencies": {
     "ts-node": "^10.9.1"
   },
-  "gitHead": "8b8bf16fdb4ad22c63a405df0b5dc68faf1155e6"
+  "gitHead": "1c34d7fef84b7361d71cb6fbbf0afd2b700bf1f7"
 }
