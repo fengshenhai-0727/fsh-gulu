@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://npm.mlamp.cn/"
+    "registry": "https://www.npmjs.com/"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,5 @@
   "dependencies": {
     "ts-node": "^10.9.1"
   },
-  "gitHead": "b21d887899174e537a6dfb4cd8515d855fa1a861"
+  "gitHead": "8b8bf16fdb4ad22c63a405df0b5dc68faf1155e6"
 }
