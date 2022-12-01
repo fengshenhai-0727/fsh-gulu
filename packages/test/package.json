@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "冯深海 <fengshenhai@miaozhen.com>",
   "homepage": "https://github.com/fengshenhai-0727/fsh-gulu#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/fengshenhai-0727/fsh-gulu/issues"
   },
   "devDependencies": {
-    "@fsh-gulu/gulu-cli": "^0.0.4"
+    "@fsh-gulu/gulu-cli": "^0.0.5"
   },
   "dependencies": {
     "ts-node": "^10.9.1"
