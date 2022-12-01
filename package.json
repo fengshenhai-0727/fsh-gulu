@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "packages": [
+		"packages/*"
+	],
   "devDependencies": {
     "lerna": "^6.0.3"
   }
